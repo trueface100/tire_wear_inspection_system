@@ -1,0 +1,1 @@
+g++ -o take_picture take_picture.cpp  -lwiringPi `pkg-config --cflags --libs opencv4`
